@@ -16,7 +16,7 @@ body {
 
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 600px;
 }
 
 .swiper-slide {
@@ -37,14 +37,50 @@ body {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  height: 100%;
+  
 }
+
 
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 800px;
+  height: 100%;
   object-fit: cover;
 }
+.sw1{
+  background-image:url("img/main_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+}
+.sw2{
+  background-image:url("img/main_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+}
+.sw3{
+  background-image:url("img/main_3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+}
+.sw4{
+  background-image:url("img/main_4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: #808080;
+}
+
 .navbar-nav .nav-link {
     color: #000;
     position: relative;
@@ -128,4 +164,14 @@ opacity: 1;
 
 .motto a{
   border-radius: 30px;
+}
+
+
+@media ( max-width: 420px ) {
+  .swiper-slide{
+    background-size: contain;
+  }
+  .swiper {
+    height: 300px;
+  }
 }
