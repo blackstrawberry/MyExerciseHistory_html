@@ -71,9 +71,11 @@
                     <div class="card justify-content-center">
                         <div class="card-body">
                           <br>
-                          <img src="./img/mainshoukai.png" alt="shoukai" />
+                          <img src="./img/mainshoukai.png" alt="shoukai" width="100%"/>
                           <div class="d-grid gap-4">
-                            <a href="#" class="btn btn-primary">プロジェクト紹介を見る</a>
+                              <div class="motto">
+                                <a href="#" class="btn btn-dark">プロジェクト紹介を見る</a>
+                              </div>
                           </div>
                           <br>
                         </div>
@@ -83,25 +85,28 @@
         </div>
         <div>
             <h2>News</h2>
-            <ul class="nav nav-pills" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active border border-3 border-primary" id="run-tab" data-bs-toggle="tab" data-bs-target="#run" type="button" role="tab" aria-controls="run" aria-selected="true">ランニング</button>
+
+
+            <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                <li class="nav-item d-grid gap-2" role="presentation">
+                    <button class="btn btn-primary" id="run-tab" data-bs-toggle="tab" data-bs-target="#run" type="button" role="tab" aria-controls="run" aria-selected="true">ランニング</button>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link border border-3 boder-secondary" id="kensui-tab" data-bs-toggle="tab" data-bs-target="#kensui" type="button" role="tab" aria-controls="kensui" aria-selected="false">懸垂</button>
+                <li class="nav-item d-grid gap-2" role="presentation">
+                    <button class="btn btn-secondary" id="kensui-tab" data-bs-toggle="tab" data-bs-target="#kensui" type="button" role="tab" aria-controls="kensui" aria-selected="false">懸垂</button>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link border border-3 border-warning" id="ude-tab" data-bs-toggle="tab" data-bs-target="#ude" type="button" role="tab" aria-controls="ude" aria-selected="false">腕立て伏せ</button>
+                <li class="nav-item d-grid gap-2" role="presentation">
+                    <button class="btn btn-warning text-white" id="ude-tab" data-bs-toggle="tab" data-bs-target="#ude" type="button" role="tab" aria-controls="ude" aria-selected="false">腕立て伏せ</button>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link border border-3 border-info" id="hukkin-tab" data-bs-toggle="tab" data-bs-target="#hukkin" type="button" role="tab" aria-controls="hukkin" aria-selected="false">腹筋運動</button>
+                <li class="nav-item d-grid gap-2" role="presentation">
+                    <button class="btn btn-info text-white" id="hukkin-tab" data-bs-toggle="tab" data-bs-target="#hukkin" type="button" role="tab" aria-controls="hukkin" aria-selected="false">腹筋運動</button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="run" role="tabpanel" aria-labelledby="home-tab">
+                    <br>
                     <div class="row row-cols-md-4 g-4">
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                     <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -111,7 +116,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -121,7 +126,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -131,20 +136,29 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
                                     <img src="./img/sample.png" class="card-img-top" alt="sample">
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row justify-content-center">
+                        <div class="col" style="text-align: center;">
+                            <div class="motto">
+                                <button type="button" class="btn btn-primary text-white">もっと見る</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="kensui" role="tabpanel" aria-labelledby="profile-tab">
+                    <br>
                     <div class="row row-cols-md-4 g-4">
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                     <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -154,7 +168,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -164,7 +178,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -174,20 +188,29 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
                                     <img src="./img/sample.png" class="card-img-top" alt="sample">
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row justify-content-center">
+                        <div class="col" style="text-align: center;">
+                            <div class="motto">
+                                <button type="button" class="btn btn-secondary text-white">もっと見る</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="ude" role="tabpanel" aria-labelledby="contact-tab">
+                    <br>
                     <div class="row row-cols-md-4 g-4">
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                     <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -197,7 +220,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -207,7 +230,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -217,7 +240,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -226,11 +249,20 @@
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <div class="row justify-content-center">
+                        <div class="col" style="text-align: center;">
+                            <div class="motto">
+                                <button type="button" class="btn btn-warning text-white">もっと見る</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="hukkin" role="tabpanel" aria-labelledby="contact-tab">
+                    <br>
                     <div class="row row-cols-md-4 g-4">
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                     <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -240,7 +272,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -250,7 +282,7 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
@@ -260,18 +292,27 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card mb-3" style="width: 18rem;">
+                            <div class="card w-100" style="width: 18rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">title</h5>
                                     <p class="card-text">2022/00/00</p>
                                     <img src="./img/sample.png" class="card-img-top" alt="sample">
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row justify-content-center">
+                        <div class="col" style="text-align: center;">
+                            <div class="motto">
+                                <button type="button" class="btn btn-info text-white">もっと見る</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <br>
     </div>
     <!--content end-->
     <!--footer-->

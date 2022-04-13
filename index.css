@@ -113,3 +113,19 @@ opacity: 1;
     transform: scale( 1.1, 1.1 );
     z-index: 9999;
 }
+
+.keikaku-post {
+  padding: 5% 5% 5% 5%;
+}
+
+.motto {
+  text-align: center;
+}
+
+.motto button{
+  border-radius: 30px;
+}
+
+.motto a{
+  border-radius: 30px;
+}
